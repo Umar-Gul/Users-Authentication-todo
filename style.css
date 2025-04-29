@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    min-height: 100vh;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    border: none;
+}
+
+form input, form button {
+    border-radius: 10px;
+}
+
+.todo-item {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.todo-item:hover {
+    background: #d1e7dd;
+    transform: scale(1.02);
+}
